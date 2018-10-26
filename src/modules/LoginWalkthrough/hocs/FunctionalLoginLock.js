@@ -5,7 +5,7 @@ import { curry } from 'lodash';
 // import siteConfig from '../../config';
 import FunctionalLoginLock from '../FunctionalLoginLock';
 import { actions } from '../reducer';
-import { actions as moduleActions, selectors} from '@bounties-network/modules';
+import { actions as moduleActions, selectors} from 'bounties';
 import { rootLoginSelector } from '../selectors';
 
 const {

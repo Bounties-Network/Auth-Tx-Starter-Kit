@@ -13,7 +13,7 @@ import FunctionalLoginLock from '../modules/LoginWalkthrough/hocs/FunctionalLogi
 import RequireLogin from '../modules/LoginWalkthrough/hocs/RequireLoginComponent';
 import { actions as loginActions } from '../modules/LoginWalkthrough/reducer';
 import { Button, Loader, Network, Text, ToastContainer, TextInput } from '@bounties-network/components';
-import { actions, selectors } from '@bounties-network/modules';
+import { actions, selectors } from 'bounties';
 
 
 const LoginComponent = props => {
